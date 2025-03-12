@@ -6,10 +6,10 @@ public class Task_1
     public void main1()
     {
         //Перший спосіб - Одновимірний масив
-        
         Console.WriteLine("Спосіб 1: Одновимірний масив");
         WorkWithOneDimensionalArray();
 
+        // Другий спосіб - Двовимірний масив
         Console.WriteLine("\nСпосіб 2: Двовимірний масив");
         WorkWithTwoDimensionalArray();
     }
@@ -149,8 +149,6 @@ public class Task_1
             }
         }
     }
-
-
 }
 }
 

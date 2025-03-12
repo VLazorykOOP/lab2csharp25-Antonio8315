@@ -38,12 +38,11 @@ public class Task_3
 
     static void PrintArray(int[,] array)
     {
-        int rows = array.GetLength(0);
-        int cols = array.GetLength(1);
+        int n = array.GetLength(0);
 
-        for (int i = 0; i < rows; i++)
+        for (int i = 0; i < n; i++)
         {
-            for (int j = 0; j < cols; j++)
+            for (int j = 0; j < n; j++)
             {
                 Console.Write(array[i, j] + "\t");
             }

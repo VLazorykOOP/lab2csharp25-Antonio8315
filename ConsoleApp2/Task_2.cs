@@ -18,8 +18,10 @@ public class Task_2
         Console.WriteLine("Початковий масив:");
         PrintArray(array);
 
+        // Заміна max елементів на 0
         ReplaceMaxElement(array);
 
+        // Виведення нового масиву
         Console.WriteLine("Масив після заміни максимальних елементів на 0:");
         PrintArray(array);
     }
